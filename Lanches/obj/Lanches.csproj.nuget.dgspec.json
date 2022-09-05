@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches\\Lanches.csproj": {}
+    "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj": {}
   },
   "projects": {
-    "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches\\Lanches.csproj": {
+    "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches\\Lanches.csproj",
+        "projectUniqueName": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj",
         "projectName": "Lanches",
-        "projectPath": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches\\Lanches.csproj",
+        "projectPath": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj",
         "packagesPath": "C:\\Users\\Duh Tk\\.nuget\\packages\\",
-        "outputPath": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches\\obj\\",
+        "outputPath": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
