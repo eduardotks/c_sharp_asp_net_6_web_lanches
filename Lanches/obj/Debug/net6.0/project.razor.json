@@ -16313,6 +16313,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Lanche\\List.cshtml",
+      "TargetPath": "Views\\Lanche\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
