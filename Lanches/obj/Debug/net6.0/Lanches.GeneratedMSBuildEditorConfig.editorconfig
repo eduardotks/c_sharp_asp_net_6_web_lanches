@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lanches
 build_property.RootNamespace = Lanches
-build_property.ProjectDir = C:\CODA-FULL\Maccoratti\git01\c_sharp_asp_net_6_web_lanches\Lanches\
+build_property.ProjectDir = c:\CODA-FULL\Maccoratti\git01\c_sharp_asp_net_6_web_lanches\Lanches\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\CODA-FULL\Maccoratti\git01\c_sharp_asp_net_6_web_lanches\Lanches
+build_property.MSBuildProjectDirectory = c:\CODA-FULL\Maccoratti\git01\c_sharp_asp_net_6_web_lanches\Lanches
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Home/Index.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Lanche/List.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Lanche/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuY2hlXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/Error.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_Carousel.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_LanchesResumo.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_LanchesResumo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYW5jaGVzUmVzdW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/_ViewImports.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/_ViewStart.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_Layout.cshtml]
+[c:/CODA-FULL/Maccoratti/git01/c_sharp_asp_net_6_web_lanches/Lanches/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a7u238c59a
