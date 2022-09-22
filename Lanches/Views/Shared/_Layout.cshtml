@@ -4,10 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Lanches</title>
-    <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Lanches.styles.css" asp-append-version="true" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -22,8 +20,8 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     @await Component.InvokeAsync("CarrinhoCompraResumo")
-                    <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a class="nav-link text-light" asp-area="" asp-controller="Lanche" asp-action="List">Lanches</a>
+                    <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
                 </div>
             </div>
@@ -37,7 +35,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - Lanches - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Lanches
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
