@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7yGrdBf7VZgbqRYl88wofmKrJuwSNAVa+2orHg0X0+8TlhqifV7zx1NNLyG4RdLzGWd/IQx23meIZZJAglstfQ==",
+  "dgSpecHash": "Z1s2ZkfEx2zchR0gGfYsRnFu1eZmHvKC/Bb0qi+9zuMTWsAgpUFcK31AtAEck53R5jSMPmW0c6c0D3XhMJsYUA==",
   "success": true,
-  "projectFilePath": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj",
+  "projectFilePath": "C:\\CODA-FULL\\Maccoratti\\git02\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Duh Tk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Duh Tk\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
