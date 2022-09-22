@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o/dIL0nWwzWfDVsXqzbY1IQTioU1wQ7fhcHtZvThiPI=",
+  "Hash": "2SUoNrkeEz+5yaFsRmh8nXFYD2b+vdBeNcXzdDE2Tr0=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\CarrinhoCompra\\cart-5-16.ico"
+    },
+    {
+      "Identity": "C:\\CODA-FULL\\Maccoratti\\git02\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\CarrinhoCompra\\delete.png",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CODA-FULL\\Maccoratti\\git02\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/CarrinhoCompra/delete.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CarrinhoCompra\\delete.png"
     },
     {
       "Identity": "C:\\CODA-FULL\\Maccoratti\\git02\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\CarrinhoCompra\\Full-Cart-icon.png",
