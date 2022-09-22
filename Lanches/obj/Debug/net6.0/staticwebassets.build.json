@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h/edYsX3uMEaUxpc7/6IJ0J3ZhTZEuOTzVAsxofhX6g=",
+  "Hash": "4PT/NcLzdGLI4yldRyiuC8r2s5VZumtRR1hdPfVxMmY=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\CarrinhoCompra\\Full-Cart-icon.png",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/CarrinhoCompra/Full-Cart-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CarrinhoCompra\\Full-Cart-icon.png"
+    },
+    {
+      "Identity": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\CarrinhoCompra\\remove.ico",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/CarrinhoCompra/remove.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\CarrinhoCompra\\remove.ico"
     },
     {
       "Identity": "C:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\home\\carousel11.jpg",
