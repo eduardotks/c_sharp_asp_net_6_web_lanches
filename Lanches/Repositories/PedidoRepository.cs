@@ -1,9 +1,6 @@
 ﻿using Lanches.Context;
 using Lanches.Models;
 using Lanches.Repositories.Interfaces;
-using Lanches.Context;
-using Lanches.Models;
-using Lanches.Repositories.Interfaces;
 
 namespace Lanches.Repositories
 {

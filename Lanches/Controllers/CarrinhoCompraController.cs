@@ -10,7 +10,8 @@ namespace Lanches.Controllers
         private readonly ILancheRepository _lancheRepository;
         private readonly CarrinhoCompra _carrinhoCompra;
 
-        public CarrinhoCompraController(ILancheRepository lancheRepository, CarrinhoCompra carrinhoCompra)
+        public CarrinhoCompraController(ILancheRepository lancheRepository,
+            CarrinhoCompra carrinhoCompra)
         {
             _lancheRepository = lancheRepository;
             _carrinhoCompra = carrinhoCompra;
@@ -29,11 +30,11 @@ namespace Lanches.Controllers
 
             return View(carrinhoCompraVM);
         }
-
         public IActionResult AdicionarItemNoCarrinhoCompra(int lancheId)
         {
             var lancheSelecionado = _lancheRepository.Lanches
-                                    .FirstOrDefault(l => l.LancheId == lancheId);
+                                    .FirstOrDefault(p => p.LancheId == lancheId);
+
             if (lancheSelecionado != null)
             {
                 _carrinhoCompra.AdicionarAoCarrinho(lancheSelecionado);
@@ -44,7 +45,8 @@ namespace Lanches.Controllers
         public IActionResult RemoverItemDoCarrinhoCompra(int lancheId)
         {
             var lancheSelecionado = _lancheRepository.Lanches
-                                    .FirstOrDefault(l => l.LancheId == lancheId);
+                                    .FirstOrDefault(p => p.LancheId == lancheId);
+
             if (lancheSelecionado != null)
             {
                 _carrinhoCompra.RemoverDoCarrinho(lancheSelecionado);

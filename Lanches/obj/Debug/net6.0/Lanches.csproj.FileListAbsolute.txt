@@ -298,7 +298,6 @@ C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\ne
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.Build.Locator.dll
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -546,3 +545,6 @@ C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\obj\Debug\ne
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\obj\Debug\net6.0\Lanches.pdb
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\obj\Debug\net6.0\Lanches.genruntimeconfig.cache
 C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\obj\Debug\net6.0\ref\Lanches.dll
+C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.Build.dll
+C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\CODA-FULL\Maccoratti\git02\c_sharp_asp_net_6_web_lanches\Lanches\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
