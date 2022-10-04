@@ -1,4 +1,5 @@
-﻿using Lanches.Context;
+﻿using Lanches.Areas.Admin.Servicos;
+using Lanches.Context;
 using Lanches.Models;
 using Lanches.Repositories;
 using Lanches.Repositories.Interfaces;
@@ -42,7 +43,7 @@ public class Startup
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
-
+        services.AddScoped<RelatorioVendasService>();
         //
         services.AddAuthorization(options =>
         {
