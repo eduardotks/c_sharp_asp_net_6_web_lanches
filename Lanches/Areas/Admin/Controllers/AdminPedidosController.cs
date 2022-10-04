@@ -9,6 +9,7 @@ using Lanches.Context;
 using Lanches.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Data;
+using ReflectionIT.Mvc.Paging;
 
 namespace Lanches.Areas.Admin.Controllers
 {
@@ -24,9 +25,25 @@ namespace Lanches.Areas.Admin.Controllers
         }
 
         // GET: Admin/AdminPedidos
+        /*
         public async Task<IActionResult> Index()
         {
               return View(await _context.Pedidos.ToListAsync());
+        }*/
+
+        public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome")
+        {
+            var resultado = _context.Pedidos.AsNoTracking().AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(filter))
+            {
+                resultado = resultado.Where(p => p.Nome.Contains(filter));
+            }
+
+            var model = await PagingList.CreateAsync(resultado, 3, pageindex, sort, "Nome");
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+
+            return View(model);
         }
 
         // GET: Admin/AdminPedidos/Details/5
@@ -152,14 +169,14 @@ namespace Lanches.Areas.Admin.Controllers
             {
                 _context.Pedidos.Remove(pedido);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PedidoExists(int id)
         {
-          return _context.Pedidos.Any(e => e.PedidoId == id);
+            return _context.Pedidos.Any(e => e.PedidoId == id);
         }
     }
 }

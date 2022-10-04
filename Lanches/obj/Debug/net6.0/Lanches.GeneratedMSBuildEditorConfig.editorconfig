@@ -11,7 +11,7 @@ build_property.RootNamespace = Lanches
 build_property.ProjectDir = E:\CODAMACO\c_sharp_asp_net_6_web_lanches\Lanches\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = E:\CODAMACO\c_sharp_asp_net_6_web_lanches\Lanches
 build_property._RazorSourceGeneratorDebug = 
 
