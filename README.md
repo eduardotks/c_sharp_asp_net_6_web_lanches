@@ -15,6 +15,19 @@ This project is a simple system to manage the sale of sandwiches.
 - CSS
 - JavaScript
 
+### Funcionalidades Aplicadas
+
+- Repository Pattern
+- View Model Pattern
+- Injeção de Dependência
+- Carrinho de compras com Session
+- Autenticação e Autorização com Identity
+- Paginação com ReflectionIT.Mvc.Paging
+- Code-First
+- Consultas LINQ
+- Visualização de gráficos com Google Charts
+- Upload de arquivos para o servidor
+
 ### Instalação
 - Clone this repository
 - Open the project in Visual Studio
@@ -23,7 +36,7 @@ This project is a simple system to manage the sale of sandwiches.
 ### Migração do banco de dados
 - Open the Package Manager Console
 - Select the project "Lanches"
-- Run the command `Update-Database`
+- Run the commands bellow if necessary.
 
 ### Outros comandos
 - `Add-Migration Initial`
