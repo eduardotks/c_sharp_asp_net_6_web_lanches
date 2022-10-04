@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/04/2022 15:24:12" ReportInfo.Modified="10/04/2022 15:36:37" ReportInfo.CreatorVersion="2022.3.0.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlq4SvF2f5wmtJqIXc5MyzJZhSt+uWmLSYqlWZTIozABAvf0aU9shsJG+bUJL/EkuaYj489255g7oBA1pYzsLsVa8cnJwgx6VfvBs8c9mtBMkFL9iixh/SmHWcGaAAnFh+21AmqqzdZffoCBCdwW2DnJB/irPnqthJ21TxjxLoZPUPkjc2wxLqVsmyNUtZbOsslDTvb1k29MTYudLlafK3iyg==">
+      <TableDataSource Name="Categorias" DataType="System.Int32" Enabled="true" TableName="Categorias">
+        <Column Name="CategoriaId" DataType="System.Int32"/>
+        <Column Name="CategoriaNome" DataType="System.String"/>
+        <Column Name="Descricao" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="Lanches" DataType="System.Int32" Enabled="true" TableName="Lanches">
+        <Column Name="LancheId" DataType="System.Int32"/>
+        <Column Name="Nome" DataType="System.String"/>
+        <Column Name="DescricaoCurta" DataType="System.String"/>
+        <Column Name="DescricaoDetalhada" DataType="System.String"/>
+        <Column Name="Preco" DataType="System.Decimal"/>
+        <Column Name="ImagemUrl" DataType="System.String"/>
+        <Column Name="ImagemThumbnailUrl" DataType="System.String"/>
+        <Column Name="IsLanchePreferido" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="EmEstoque" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="CategoriaId" DataType="System.Int32"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Relation Name="Categorias_Lanches" ParentDataSource="Categorias" ChildDataSource="Lanches" ParentColumns="CategoriaId" ChildColumns="CategoriaId" Enabled="true"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="47.25">
+      <TextObject Name="Text9" Left="217.35" Top="9.45" Width="255.15" Height="28.35" Border.Color="WhiteSmoke" Fill.Color="White" Text="Lanches por Categoria" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="51.25" Width="718.2" Height="37.8" Fill.Color="128, 255, 255" StartNewPage="true" DataSource="Categorias">
+      <TextObject Name="Text1" Left="9.45" Top="9.45" Width="245.7" Height="18.9" Text="[Categorias.CategoriaNome]" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Text2" Left="292.95" Top="9.45" Width="340.2" Height="18.9" Text="[Categorias.Descricao]" Font="Arial, 10pt"/>
+      <DataBand Name="Data2" Top="134.85" Width="718.2" Height="122.85" DataSource="Lanches">
+        <TextObject Name="Text3" Width="122.85" Height="18.9" Text="[Lanches.Nome]" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Text5" Left="160.65" Width="189" Height="18.9" Text="[Lanches.DescricaoCurta]" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Text7" Left="378" Width="132.3" Height="18.9" Text="[Lanches.Preco]" Format="Currency" Format.UseLocale="true" Format.DecimalDigits="2" HorzAlign="Right" WordWrap="false" Font="Arial, 10pt, style=Bold" Trimming="EllipsisCharacter"/>
+        <PictureObject Name="Picture1" Left="548.1" Width="75.6" Height="75.6" DataColumn="Lanches.ImagemUrl"/>
+        <DataHeaderBand Name="DataHeader1" Top="93.05" Width="718.2" Height="37.8">
+          <TextObject Name="Text4" Width="122.85" Height="18.9" Border.Color="WhiteSmoke" Text="Nome" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text6" Left="160.65" Width="189" Height="18.9" Border.Color="WhiteSmoke" Text="DescricaoCurta" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text8" Left="378" Width="132.3" Height="18.9" Border.Color="WhiteSmoke" Text="Preco" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+        </DataHeaderBand>
+      </DataBand>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="261.7" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

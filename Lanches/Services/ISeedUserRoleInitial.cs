@@ -1,4 +1,4 @@
-﻿namespace LanchesMac.Services
+﻿namespace Lanches.Services
 {
     public interface ISeedUserRoleInitial
     {

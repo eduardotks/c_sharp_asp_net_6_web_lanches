@@ -3,7 +3,7 @@ using Lanches.Context;
 using Lanches.Models;
 using Lanches.Repositories;
 using Lanches.Repositories.Interfaces;
-using LanchesMac.Services;
+using Lanches.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
