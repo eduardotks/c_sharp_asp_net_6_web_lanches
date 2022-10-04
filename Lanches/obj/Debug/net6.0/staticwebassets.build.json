@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZXMtKw/hSw7XocizakeDwdyd8ac3qCHEzIMcW0jf07E=",
+  "Hash": "j4sxqQcerK7ZgT0CWOqPDr737NDfgXXCReZEIxNhOeM=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -678,6 +678,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\login\\registro1.jpg"
+    },
+    {
+      "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\produtos\\photo-1555066931-4365d14bab8c.webp",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/produtos/photo-1555066931-4365d14bab8c.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\produtos\\photo-1555066931-4365d14bab8c.webp"
     },
     {
       "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\js\\site.js",
