@@ -3,6 +3,7 @@
 ### Descrição
 - Project ASP .NET Core 6 developed with Macoratti in Udemy plataform. The objective of this project is to learn how to develop a web application with ASP .NET Core 6.
 This project is a simple system to manage the sale of sandwiches.
+- Admin user: admin@localhost // Admin password: Numsey#2022
 
 ### Tecnologias
 - ASP .NET Core 6
@@ -31,6 +32,8 @@ This project is a simple system to manage the sale of sandwiches.
 ### Instalação
 - Clone this repository
 - Open the project in Visual Studio
+- Install the SQL Server, and get the machine name like `NOTETK\\SQLEXPRESS` and change into the file 'appsettings.json'
+- Run the command `Update-Database` in console applications 
 - Run the project
 
 ### Migração do banco de dados
