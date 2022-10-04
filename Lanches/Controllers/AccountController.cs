@@ -1,9 +1,11 @@
 ﻿using Lanches.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lanches.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
 
@@ -16,7 +18,7 @@ namespace Lanches.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
-
+        [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
             return View(new LoginViewModel()
@@ -24,7 +26,7 @@ namespace Lanches.Controllers
                 ReturnUrl = returnUrl
             });
         }
-
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel loginVM)
         {
@@ -48,12 +50,12 @@ namespace Lanches.Controllers
             ModelState.AddModelError("", "Falha ao realizar o login!!");
             return View(loginVM);
         }
-
+        [AllowAnonymous]
         public IActionResult Register()
         {
             return View();
         }
-
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(LoginViewModel registroVM)
@@ -76,6 +78,15 @@ namespace Lanches.Controllers
             return View(registroVM);
         }
 
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            HttpContext.Session.Clear();
+            HttpContext.User = null;
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
 
     }
 }
