@@ -28,6 +28,9 @@ public class Startup
          .AddEntityFrameworkStores<AppDbContext>()
          .AddDefaultTokenProviders();
 
+
+        services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfigurationPastaImagens"));
+
         //services.Configure<IdentityOptions>(options =>
         //{
         //    // Default Password settings.
