@@ -12,8 +12,8 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/images/layout/lanchemac2.png" widht="100" height="100" />
-                    LanchesMac
+                    <img src="~/images/home/logo_lanche2-sfd.png" />
+                    Lanches
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -38,17 +38,18 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container" style>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
+    @*
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - LanchesMac
+            &copy; 2021 - Lanches
         </div>
-    </footer>
+    </footer>*@
+    <partial name="_Footer" />
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

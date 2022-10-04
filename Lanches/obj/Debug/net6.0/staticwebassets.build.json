@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j4sxqQcerK7ZgT0CWOqPDr737NDfgXXCReZEIxNhOeM=",
+  "Hash": "8OkbOzGZf0fBTFo0jwq2pEGy1eiD1poXdPc3WVLpC1o=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -610,6 +610,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\home\\icons8-speaker-phone-50.png"
+    },
+    {
+      "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\home\\logo_lanche2-sfd.png",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/home/logo_lanche2-sfd.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\home\\logo_lanche2-sfd.png"
     },
     {
       "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\layout\\lanchemac2.png",
