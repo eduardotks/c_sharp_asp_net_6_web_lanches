@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fL5sbgqldrTJ1HmTMAyx98t+AqhHLSvdumB8qkzhhqg=",
+  "Hash": "HUfdbz4vgswE6Izt87NxqAK1l0Gg9bJ2LaUj822Xfeo=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -593,6 +593,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\login\\login_48.png"
+    },
+    {
+      "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\login\\negado1.jpg",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/login/negado1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\login\\negado1.jpg"
     },
     {
       "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\login\\registro1.jpg",
