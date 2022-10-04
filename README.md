@@ -48,3 +48,10 @@ This project is a simple system to manage the sale of sandwiches.
 - `dotnet ef migrations add Initial`
 - `dotnet ef database update`
 - `dotnet ef migrations remove`
+
+### Imagem
+
+<p align="center">
+  <img src="https://github.com/eduardotks/c_sharp_asp_net_6_web_lanches/blob/main/Lanches/wwwroot/images/img_capa.png">
+</p>
+
