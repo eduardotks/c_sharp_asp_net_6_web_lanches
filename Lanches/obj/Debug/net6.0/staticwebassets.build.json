@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a14YoSHbTXIfRT44DJ07A3T2qoQkO5LGgvvT/3BF2+Y=",
+  "Hash": "fL5sbgqldrTJ1HmTMAyx98t+AqhHLSvdumB8qkzhhqg=",
   "Source": "Lanches",
   "BasePath": "_content/Lanches",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\admin\\adminarea.jpg",
+      "SourceId": "Lanches",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\",
+      "BasePath": "_content/Lanches",
+      "RelativePath": "images/admin/adminarea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\admin\\adminarea.jpg"
     },
     {
       "Identity": "E:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\wwwroot\\images\\CarrinhoCompra\\cart-5-16.ico",

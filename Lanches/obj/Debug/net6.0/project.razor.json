@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj",
+  "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Lanches.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -12050,6 +12050,40 @@
         }
       },
       {
+        "HashCode": 392110497,
+        "Kind": "ITagHelper",
+        "Name": "Lanches.TagHelpers.EmailTagHelper",
+        "AssemblyName": "Lanches",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "email"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "endereco",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Endereco"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "conteudo",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Conteudo"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "Lanches.TagHelpers.EmailTagHelper"
+        }
+      },
+      {
         "HashCode": -1132855933,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -14245,6 +14279,40 @@
         }
       },
       {
+        "HashCode": 1947990953,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CarrinhoCompraResumoViewComponentTagHelper",
+        "AssemblyName": "Lanches",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:carrinho-compra-resumo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CarrinhoCompraResumoViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CarrinhoCompraResumo"
+        }
+      },
+      {
+        "HashCode": 1648417129,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CategoriaMenuViewComponentTagHelper",
+        "AssemblyName": "Lanches",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:categoria-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CategoriaMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CategoriaMenu"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16298,53 +16366,123 @@
   "RootNamespace": "Lanches",
   "Documents": [
     {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Lanche\\List.cshtml",
-      "TargetPath": "Views\\Lanche\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\CarrinhoCompra\\Index.cshtml",
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\CarrinhoCompra\\Index.cshtml",
       "TargetPath": "Views\\CarrinhoCompra\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\Components\\CategoriaMenu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CategoriaMenu\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_Carousel.cshtml",
-      "TargetPath": "Views\\Shared\\_Carousel.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_LanchesResumo.cshtml",
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_LanchesResumo.cshtml",
       "TargetPath": "Views\\Shared\\_LanchesResumo.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\CODA-FULL\\Maccoratti\\git01\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\_ViewStart.cshtml",
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Pedido\\Checkout.cshtml",
+      "TargetPath": "Views\\Pedido\\Checkout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Pedido\\CheckoutCompleto.cshtml",
+      "TargetPath": "Views\\Pedido\\CheckoutCompleto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CarrinhoCompraResumo\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Admin\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Lanche\\List.cshtml",
+      "TargetPath": "Views\\Lanche\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\_Carousel.cshtml",
+      "TargetPath": "Views\\Shared\\_Carousel.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Lanche\\Details.cshtml",
+      "TargetPath": "Views\\Lanche\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Contato\\Index.cshtml",
+      "TargetPath": "Views\\Contato\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\CODAMACO\\c_sharp_asp_net_6_web_lanches\\Lanches\\Views\\Home\\_IndexPartial.cshtml",
+      "TargetPath": "Views\\Home\\_IndexPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

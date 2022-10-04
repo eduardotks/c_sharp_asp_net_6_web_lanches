@@ -68,6 +68,7 @@ namespace Lanches.Controllers
                 if (result.Succeeded)
                 {
                     //await _signInManager.SignInAsync(user, isPersistent: false);
+                    await _userManager.AddToRoleAsync(user, "Member");
                     return RedirectToAction("Login", "Account");
                 }
                 else
@@ -88,5 +89,10 @@ namespace Lanches.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
     }
 }
