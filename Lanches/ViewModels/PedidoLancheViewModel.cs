@@ -1,6 +1,6 @@
 ﻿using Lanches.Models;
 
-namespace LanchesMac.ViewModels
+namespace Lanches.ViewModels
 {
     public class PedidoLancheViewModel
     {
