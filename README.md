@@ -1,7 +1,7 @@
 ## Sistema de gerenciamento de Lanches
 
 ### Descrição
-- Project ASP .NET Core 6 developed with Macoratti in Udemy plataform. The objective of this project is to learn how to develop a web application with ASP .NET Core 6.
+- Project ASP .NET Core 6 developed. The objective of this project is to learn how to develop a web application with ASP .NET Core 6.
 This project is a simple system to manage the sale of sandwiches.
 - Admin user: admin@localhost // Admin password: Numsey#2022
 
